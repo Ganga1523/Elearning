@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* input fields */
+
+input {
+    outline: none;
+    border: none;
+}
+
+input:focus 
+{
+    border-color: transparent !important;
+}
+  
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }  
+
+input::-webkit-input-placeholder { color: #555555;}
+input:-moz-placeholder { color: #555555;}
+input::-moz-placeholder { color: #555555;}
+input:-ms-input-placeholder { color: #555555;} 
+
+/*banner */
+.banner-area
+{
+    width: 100%;
+    margin: 0 auto;
+    background:linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
+    url(bg-02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* login */
+.container-login
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.login-main
+{
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: transparent;
+}
+
+/* login form */
+
+.login-form
+{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    display: block;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    padding-bottom: 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.login-form-title
+{
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+/* icons */
+
+.icon
+{
+    padding: 10px;
+    position: relative;
+    min-width: 40px;
+    left: 20px;
+    top: 42px;
+    text-align: center;
+    border-radius: 10%;
+    color: black;
+}
+
+/* input */
+
+.login-input
+{
+    width: 100%;
+    position: relative;
+    padding: 14px 10px;
+    color: white;
+}
+.login-form ::placeholder
+{
+    color: rgba(245, 222, 179, 0.788);
+}
+.input-field
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.09);
+    font-style: inherit;
+    background: 1px solid transparent;
+    border-radius: 40px;
+    line-height: 1.4;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+    padding: 0 10px 0 60px;
+    -webkit-transition: all 1.4s;
+    -o-transition: all 1.4s;
+    -moz-transition: all 1.4s;
+    transition: all 1.4s;
+
+}
+
+.input-field:focus
+{
+    padding-left: 55px;
+}
+
+/* forget password */
+
+.option_div
+{
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
+    text-align: right;
+}
+.option_div .forget_div a
+{
+    width: 50%;
+    font-size: 17px;
+    margin-left: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* login btn */
+
+.container-login-form-btn 
+{
+    margin-top: 32px;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button 
+{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.login-form-btn 
+{
+    width: 100%;
+    font-size: 18px;
+    color: wheat;
+    line-height: 1.2;
+    text-transform: uppercase;
+  
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-style: inherit;
+    padding: 0 16px;
+    max-width: 360px;
+    height: 50px;
+    border-radius: 40px;
+    
+    background: #033f8d;
+    position: relative;
+    z-index: 1;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Login Form </title>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	
+        <link rel="icon" type="image/png" href="images/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div class="banner-area">
+            <div class="container-login">
+                <div class="login-main">
+                    <span class="login-form-title">
+                        Account Login
+                    </span>
+                    
+                    <form action = "../index.html" method = "get" class="login-form validate-form">
+
+                        <div class="login-input validate-input" data-validate = "Enter username">
+                            <i class="fa fa-user icon"></i>
+                            <input class="input-field" type="text" name="username" placeholder="User name" required>
+                        </div>
+    
+                        <div class="login-input validate-input" data-validate="Enter password">
+                            <i class="fa fa-lock icon"></i>
+                            <input class="input-field" type="password" name="pass" placeholder="Password" required>
+                        </div>
+                        <div class="option_div">
+                            <div class="forget_div">
+                                <a href="#">Forgot password</a>
+                            </div>
+                        </div>
+                        <div class="container-login-form-btn">
+                            <button class="login-form-btn">
+                                Sign in
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
