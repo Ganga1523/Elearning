@@ -1,4 +1,4 @@
 # Elearning
 
 
-https://symphonious-profiterole-065934.netlify.app/
+https://kids-elearning.netlify.app/
